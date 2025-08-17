@@ -23,7 +23,7 @@ class _CartPageState extends State<CartPage> {
           children: [
             const Text(
               'My Cart',
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24, color: Colors.white),
             ),
             const SizedBox(height: 19),
             Expanded(

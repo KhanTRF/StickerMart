@@ -130,7 +130,7 @@ class _ShopPageState extends State<ShopPage> {
     //Notify The user that Item is added in cart
     showDialog(context: context,
         builder: (context) =>
-            AlertDialog(title: Text('Item Added Sucessfully'),
+            AlertDialog(title: Text('Item Added Successfully'),
               content: Text('Check your Cart'),));
   }
 
@@ -162,7 +162,7 @@ class _ShopPageState extends State<ShopPage> {
           child: Center(
             child: Text(
               'Make Cars Great Again',
-              style: TextStyle(color: Colors.grey),
+              style: TextStyle(color: Colors.white),
             ),
           ),
         ),
@@ -178,7 +178,7 @@ class _ShopPageState extends State<ShopPage> {
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 24,
-                  color: Colors.black,
+                  color: Colors.white,
                 ),
               ),
               Text(
@@ -191,10 +191,10 @@ class _ShopPageState extends State<ShopPage> {
             ],
           ),
         ),
-         SizedBox(height: 50),
+         SizedBox(height: 40),
         // Horizontal List of Shoes
         SizedBox(
-          height: 390, // <-- give this ListView a fixed height
+          height: 340, // <-- give this ListView a fixed height
           child: ListView.builder(
             scrollDirection: Axis.horizontal,
             itemCount: 4,

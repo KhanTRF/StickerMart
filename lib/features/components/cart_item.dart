@@ -22,7 +22,7 @@ class _CartItemState extends State<CartItem> {
     return Container(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(12),
-        color: Colors.grey[100],
+        color: Colors.white60,
       ),
       margin: const EdgeInsets.only(bottom: 10),
       child: ListTile(

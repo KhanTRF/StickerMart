@@ -13,7 +13,7 @@ class _IntroPageState extends State<IntroPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[100],
+      backgroundColor: Colors.pink,
       body: Center(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -22,18 +22,18 @@ class _IntroPageState extends State<IntroPage> {
             children: [
               Padding(
                 padding: EdgeInsets.all(25.0),
-                child: Image.asset('lib/images/86.png', height: 240),
+                child: Image.asset('lib/images/BMW Mpower.png', height: 240),
               ),
               SizedBox(height: 48),
               Text(
                 'JDM FOR THE WIN',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 40),
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 36,color: Colors.white),
               ),
               SizedBox(height: 24),
 
               Text(
                 'Buy the JDM merch Special For JDM Lovers ',
-                style: TextStyle(fontSize: 16, color: Colors.grey),
+                style: TextStyle(fontSize: 14, color: Colors.white),
                 textAlign: TextAlign.center,
               ),
               SizedBox(height: 48),
@@ -76,14 +76,14 @@ class _IntroPageState extends State<IntroPage> {
                   width: 100,
                   height: 50,
                   decoration: BoxDecoration(
-                    color: Colors.black,
+                    color: Colors.white,
                     borderRadius: BorderRadius.circular(12),
                   ),
                   child: const Center(
                     child: Text(
                       'Buy Sticker',
                       style: TextStyle(
-                        color: Colors.white,
+                        color: Colors.purple,
                         fontSize: 16,
                         fontWeight: FontWeight.bold,
                       ),

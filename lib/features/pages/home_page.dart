@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Colors.purple[400],
       // bottomNavigationBar: BottomNavigationBar(
       //   currentIndex: _selectedIndex,
       //   onTap: navigateBottomBar,
@@ -45,13 +45,13 @@ class _HomePageState extends State<HomePage> {
               onPressed: () {
                 Scaffold.of(context).openDrawer();
               },
-              icon: const Icon(Icons.menu, color: Colors.black),
+              icon: const Icon(Icons.menu, color: Colors.white),
             );
           },
         ),
       ),
       drawer: Drawer(
-        backgroundColor: Colors.grey[900],
+        backgroundColor: Colors.purple,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> {
                 DrawerHeader(child: Image.asset('lib/images/86.png')),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 20),
-                  child: Divider(color: Colors.grey[800]),
+                  child: Divider(color: Colors.white),
                 ),
                 const Padding(
                   padding: EdgeInsets.only(left: 25.0),

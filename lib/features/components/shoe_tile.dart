@@ -77,11 +77,11 @@ class ShoeTile extends StatelessWidget {
       margin: EdgeInsets.only(left: 25),
       width: 280,
       decoration: BoxDecoration(
-        color: Colors.grey[100],
+        color: Colors.grey[300],
         borderRadius: BorderRadius.circular(12),
         boxShadow: [
           BoxShadow(
-            color: Colors.black12!,
+            color: Colors.black12,
             blurRadius: 12,
             offset: Offset(2, 2),
           ),

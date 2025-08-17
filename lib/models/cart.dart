@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:provider/provider.dart';
 import 'package:untitled1/models/shoe.dart';
 
 class Cart extends ChangeNotifier{
